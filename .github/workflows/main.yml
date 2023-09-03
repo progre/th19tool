@@ -29,8 +29,8 @@ jobs:
       - shell: bash
         run: |
           mkdir artifact
-          mv ./target/i686-pc-windows-msvc/release/dinput8.dll \
-            ./artifact/dinput8.dll
+          mv ./target/i686-pc-windows-msvc/release/d3d9.dll \
+            ./artifact/d3d9.dll
       - uses: actions/upload-artifact@v3
         with:
           name: artifact
