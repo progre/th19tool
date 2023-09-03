@@ -12,8 +12,6 @@ crate-type = ['cdylib']
 winres = "0.1"
 
 [dependencies]
-# minhook-sys = "0.1.1"
-minhook = "0.3.0"
 rand = "0.8.5"
 windows = { version = "0.51.1", features = [
   "Win32_Foundation",
